@@ -1,0 +1,205 @@
+[
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getNFTCount",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "nftId",
+        "type": "uint256"
+      },
+      {
+        "name": "commentId",
+        "type": "uint256"
+      }
+    ],
+    "name": "getNFTComment",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "nftID",
+        "type": "uint256"
+      }
+    ],
+    "name": "getNFTCommentCount",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "nftId",
+        "type": "uint256"
+      },
+      {
+        "name": "commentId",
+        "type": "uint256"
+      }
+    ],
+    "name": "upVoteNFTComment",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "contractAddress",
+        "type": "string"
+      },
+      {
+        "name": "tokenID",
+        "type": "string"
+      }
+    ],
+    "name": "addNFT",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "nftId",
+        "type": "uint256"
+      }
+    ],
+    "name": "downVoteNFT",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "nftId",
+        "type": "uint256"
+      }
+    ],
+    "name": "upVoteNFT",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "nftId",
+        "type": "uint256"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ],
+    "name": "addNFTComment",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "nftId",
+        "type": "uint256"
+      }
+    ],
+    "name": "getNFT",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "string"
+      },
+      {
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "nftId",
+        "type": "uint256"
+      },
+      {
+        "name": "commentId",
+        "type": "uint256"
+      }
+    ],
+    "name": "downVoteNFTComment",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
